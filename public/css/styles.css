@@ -1,406 +1,445 @@
 *{
-  margin: 0px;
-  padding: 0px;    
-  box-sizing: border-box;
-}
-
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: #ebebeb;
-}
-
-h3{
-  font-size: 24px;
-}
-
-p{
-  font-size: 12px;
-}
-
-div.top-header{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-}
-
-header div.top-header p{
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-header{
-  background-color: #EAC926;
-  padding: 12px;
-}
-
-.logo {
-  width: 50%;    
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 5px;
-}
-header .form-search{
-  width: 50%;
-  height: auto;
-}
-
-header .form-search{
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  flex-direction: row;
-  justify-content: center;
-  margin: 5px;
-}
-
-header .form-search .box-search{
-  background-color: #FFF;
-  border: 1px solid #000;
-  outline: none;
-  color: #666;
-  padding: 2px;
-  width: 50%;
-}
-
-header .form-search .img-search{
-  background-color: #FFF;
-  border: 1px solid #000;
-  color: #666;
-  width: 4%;
-  margin-left: 10px;
-}
-
-header nav{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
-  margin: 0px;
-  justify-content: space-between;
-  background-color: #EAC926;
-}
-
-.options, .user-section{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 40%;
-  justify-content: space-between;
-}
-
-div.burger-menu{
-  text-align: center;
-}
-
-div.burger-menu i{
-  background-color: #0044AA;
-  border-radius: 5px;
-  color: #FFF;
-  font-size: 20px;
-  height: 40px;
-  margin: 10px 0px 20px 0px;
-  padding: 10px;
-  width: 40px;
-}
-
-div.last-visit,
-div.offers{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.price{
-  font-size: 18px;
-  width: 30%;
-}
-
-.discount{
-  width: 70%;
-}
-
-.discount,
-.description{
-  font-size: 16px;
-  font-weight: normal;
-}
-
-h3,
-.description{
-  color: #666;
-}
-
-.description{
-  margin-top: 20px;
-  opacity: 0;
-}
-
-section.banner img{
-  width: 100%;
-}
-
-main{
-  width: 90%;
-  margin: 0 auto;
-}
-
-main section article{
-  background-color: #fff;    
-  margin: 10px 0px;
-}
-
-main section article img{
-  width: 100%;
-}
-
-main section article i,
-.discount{
-  color: #39b54a;
-}
-
-main section article i{
-  display: block;
-  font-size: 16px;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #39b54a;
-  background-color: #FFF;
-  border-radius: 50%;
-  position: absolute;
-  right: 20px;
-  top: -15px;
-  transition: all 1s;
-}
-
-main section h3{
-  margin: 20px 0px;
-}
-
-article div.main-article{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  border-top: 1px solid #ebebeb;
-  position: relative;
-  padding: 15px;
-}
-footer{
-  background-color: #6666664c;
-  margin-bottom: 2px;
-}
-.container-1 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 10px;
-  flex-direction: column;
-}
-
-.container-1 div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: space-around;
-  flex: 1 1 22%;
-  margin: 5px;
-  background-color: #ebebebd3;
-  border-radius: 10px;
-  padding: 5px;
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
   }
-
-.container-1 div i {
-  font-size: 2em;
-  margin-bottom: 5px; 
-  color: #185ed8;
-  align-self: center;
   
-}
-
-.container-2{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.derechos{
-  color:#4f4e4e;
-  align-self: flex-start;
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-/*login y register*/
-
-.login, 
-.register{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.login-form,
-.register-form{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center ;
-  justify-content: center;
-  flex-direction: column;
-  width: 40%;
-  margin: 25px;
-  padding: 15px 10px 10px 10px;
-  background-color: #86868a;
-  border: #000;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
-}
-.register-form{
-  align-items: normal;
-  width: 35%;
-  justify-content: space-around;
-  padding: 30px;
-}
-
-.register-form input{
-  height: 30px;
-  padding: 7px;
-  font-style: italic;
-}
-.interests input[type="submit"],
-.interests input[type="reset"]{
-  margin-right: 30px;
-  border-radius: 15px;
-}
-
-.box-user,
-.box-pass{
-  margin: 20px;
-  width: 50%;
-  font-size: 16px;
-  height: 30px;
-  padding: 7px;
-}
-.btn-access{
-  margin: 20px;
-  width: 20%;
-  height: 30px;
-  border-radius: 15px;
-}
-
-.btn-access:hover{
-  background-color: #0022AA;
-  color: white;
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+  }
+  
+  h3{
+    font-size: 24px;
+  }
+  
+  p{
+    font-size: 12px;
+  }
+  
+  div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  header{
+    background-color: #EAC926;
+    padding: 12px;
+  }
+  
+  .logo {
+    width: 50%;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+  }
+  header .form-search{
+    width: 50%;
+    height: auto;
+  }
+  
+  header .form-search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  header .form-search .box-search{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 50%;
+  }
+  
+  header .form-search .img-search{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 4%;
+    margin-left: 10px;
+  }
+  
+  header nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0px;
+    justify-content: space-between;
+    background-color: #EAC926;
   }
 
-@media (min-width: 360px){
-  main section article .description{
-      display: block;
-      transition: all 1s;
-      opacity: 0;
-  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
 
-  main section article{
-      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-      transition: all 1s;
-  }
-  main section article:hover{
-      box-shadow: 0 0 20px rgba(17, 17, 17, 1.2);
-  }
-  main section article:hover i{
-      transform: rotate(-90deg);
-  }
-  main section article:hover .description{
-      opacity: 1;
-  }
-  main section div.products{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
 
-  main section div.products article{
-      width: 45%;
-  }
 
-  .price,
+  .options , .user-section{
+    display: flex;
+    list-style: none;
+    width: 40%;
+}
+
+  .options {
+    justify-content: flex-start;
+}
+
+  .options ul li a{
+    font-size: 1rem;
+    text-align: start;
+}
+
+  .options ul , .user-section ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+  .user-section {
+    justify-content: flex-end;
+}
+
+  
+  .options, .user-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-between;
+  }
+  
+  div.burger-menu{
+    text-align: center;
+  }
+  
+  div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+  }
+  
+  div.last-visit,
+  div.offers{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .price{
+    font-size: 18px;
+    width: 30%;
+  }
+  
   .discount{
-      width: 50%;
-      font-size: 14px;
+    width: 70%;
   }
   
-  header .form-search {
-      width: 100%;
+  .discount,
+  .description{
+    font-size: 16px;
+    font-weight: normal;
   }
-
-  header .form-search .box-search {
-      width: 80%;
+  
+  h3,
+  .description{
+    color: #666;
   }
-  header .form-search .img-search {
-      width: 10%;
+  
+  .description{
+    margin-top: 20px;
+    opacity: 0;
   }
-
-  .options, .user-section {
-      flex-direction: column;
+  
+  section.banner img{
+    width: 100%;
   }
-  .user-section{
-      align-items: flex-end;
+  
+  main{
+    width: 90%;
+    margin: 0 auto;
   }
-  .login-form, .register-form{
-      width: auto;
+  
+  main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
   }
-
-  .box-user, .box-pass{
-      width: 80%;
+  
+  main section article img{
+    width: 100%;
   }
-  .btn-access {
-      width: 60%;
+  
+  main section article i,
+  .discount{
+    color: #39b54a;
+  }
+  
+  main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: all 1s;
+  }
+  
+  main section h3{
+    margin: 20px 0px;
+  }
+  
+  article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+  }
+  footer{
+    background-color: #6666664c;
+    margin-bottom: 2px;
   }
   .container-1 {
-      flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: column;
   }
-
+  
   .container-1 div {
-      width: 98%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-around;
+    flex: 1 1 22%;
+    margin: 5px;
+    background-color: #ebebebd3;
+    border-radius: 10px;
+    padding: 5px;
+    }
+  
+  .container-1 div i {
+    font-size: 2em;
+    margin-bottom: 5px; 
+    color: #185ed8;
+    align-self: center;
+    
   }
   
-}
-
-@media (min-width: 770px){ /*Dekstop*/
-  main section div.products article{
-      width: 22%;
+  .container-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
-
-  header .form-search {
-      width: 70%;
-  }
-  .options, .user-section{
-      flex-direction: row;
-  }
-  header .form-search .box-search {
-      width: 60%;
-  }
-  header .form-search .img-search {
-      width: 5%;
-  }
-
-  div.burger-menu {
-display: none;
-  }
-
-  .container-1{
-      flex-direction: row;
+  .derechos{
+    color:#4f4e4e;
+    align-self: flex-start;
+    font-style: italic;
+    margin-bottom: 5px;
   }
   
-}
-
-
-
+  /*login y register*/
+  
+  .login, 
+  .register{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .login-form,
+  .register-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 25px;
+    padding: 15px 10px 10px 10px;
+    background-color: #86868a;
+    border: #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  }
+  .register-form{
+    align-items: normal;
+    width: 35%;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  
+  .register-form input{
+    height: 30px;
+    padding: 7px;
+    font-style: italic;
+  }
+  .interests input[type="submit"],
+  .interests input[type="reset"]{
+    margin-right: 30px;
+    border-radius: 15px;
+  }
+  
+  .box-user,
+  .box-pass{
+    margin: 20px;
+    width: 50%;
+    font-size: 16px;
+    height: 30px;
+    padding: 7px;
+  }
+  .btn-access{
+    margin: 20px;
+    width: 20%;
+    height: 30px;
+    border-radius: 15px;
+  }
+  
+  .btn-access:hover{
+    background-color: #0022AA;
+    color: white;
+    }
+  
+  @media (min-width: 360px){
+    main section article .description{
+        display: block;
+        transition: all 1s;
+        opacity: 0;
+    }
+  
+    main section article{
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        transition: all 1s;
+    }
+    main section article:hover{
+        box-shadow: 0 0 20px rgba(17, 17, 17, 1.2);
+    }
+    main section article:hover i{
+        transform: rotate(-90deg);
+    }
+    main section article:hover .description{
+        opacity: 1;
+    }
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+  
+    main section div.products article{
+        width: 45%;
+    }
+  
+    .price,
+    .discount{
+        width: 50%;
+        font-size: 14px;
+    }
+    
+    header .form-search {
+        width: 100%;
+    }
+  
+    header .form-search .box-search {
+        width: 80%;
+    }
+    header .form-search .img-search {
+        width: 10%;
+    }
+  
+    .options, .user-section {
+        flex-direction: column;
+    }
+    .user-section{
+        align-items: flex-end;
+    }
+    .login-form, .register-form{
+        width: auto;
+    }
+  
+    .box-user, .box-pass{
+        width: 80%;
+    }
+    .btn-access {
+        width: 60%;
+    }
+    .container-1 {
+        flex-direction: column;
+    }
+  
+    .container-1 div {
+        width: 98%;
+    }
+    
+  }
+  
+  @media (min-width: 770px){ /*Dekstop*/
+    main section div.products article{
+        width: 22%;
+    }
+  
+    header .form-search {
+        width: 70%;
+    }
+    .options, .user-section{
+        flex-direction: row;
+    }
+    header .form-search .box-search {
+        width: 60%;
+    }
+    header .form-search .img-search {
+        width: 5%;
+    }
+  
+    div.burger-menu {
+  display: none;
+    }
+  
+    .container-1{
+        flex-direction: row;
+    }
+    
+  }
 
