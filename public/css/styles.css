@@ -23,6 +23,7 @@
     padding: 20px;
     align-items: center;
     justify-content: center;
+    margin: auto;
   }
   
   header div.top-header p{
@@ -44,18 +45,15 @@
     align-items: center;
     padding-top: 5px;
   }
-  header .form-search{
-    width: 50%;
-    height: auto;
-  }
   
   header .form-search{
     display: flex;
-    align-items: center;
     padding: 10px;
     flex-direction: row;
     justify-content: center;
     margin: 5px;
+    width: 100%;
+    height: auto;
   }
   
   header .form-search .box-search{
@@ -64,19 +62,19 @@
     outline: none;
     color: #666;
     padding: 2px;
-    width: 50%;
+    width: 100%;
   }
   
   header .form-search .img-search{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
-    width: 4%;
+    width: 8%;
     margin-left: 10px;
   }
   
   header nav{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 10px;
@@ -297,7 +295,7 @@ nav{
     width: 40%;
     margin: 25px;
     padding: 15px 10px 10px 10px;
-    background-color: #86868a;
+    background-color: #ebebeb;
     border: #000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
@@ -340,7 +338,9 @@ nav{
     color: white;
     }
   
+
   @media (min-width: 360px){
+
     main section article .description{
         display: block;
         transition: all 1s;
@@ -414,8 +414,22 @@ nav{
     }
     
   }
-  
-  @media (min-width: 770px){ /*Dekstop*/
+  /*Dekstop*/
+  @media (min-width: 770px){
+
+    header div.top-header p{
+      width: 50%;
+    }
+
+    div.top-header {
+      flex-wrap: nowrap;
+    }
+
+    header nav {
+      display: flex;
+    }
+
+
     main section div.products article{
         width: 22%;
     }
@@ -427,7 +441,7 @@ nav{
         flex-direction: row;
     }
     header .form-search .box-search {
-        width: 60%;
+        width: 80%;
     }
     header .form-search .img-search {
         width: 5%;
@@ -442,4 +456,3 @@ nav{
     }
     
   }
-
